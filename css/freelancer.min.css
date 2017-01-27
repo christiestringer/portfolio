@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Bitter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: Regular;
-    color: #3c5a5b;
+    color: #FBEC9A;
 }
 h1{
     font-size: 50px;
@@ -74,30 +74,30 @@ hr.star-light:after, hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #3c5a5b;
+    border-color: #FBEC9A;
 }
 
 hr.star-light:after {
-    background-color: #739dcd;
-    color: #3c5a5b;
+    background-color: #F6C0A3;
+    color: #FBEC9A;
 }
 
 
 hr.star-primary {
-    border-color: #e9dddd
+    border-color: #DF8C89
 }
 
 hr.star-primary:after {
     background-color: #fff;
-    color: #e9dddd
+    color: #DF8C89
 }
 
 .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-nav li a{
-    color: #e9dddd
+    color: #DF8985
 }
 
 header{
-    color: #FFDCDC;
+    color: #DF8C89;
 }
 
 .img-centered {
@@ -106,7 +106,7 @@ header{
 
 header {
     text-align: center;
-    background: #739dcd
+    background: #F6C0A3
 }
 
 header .container {
@@ -146,7 +146,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom {
-    background: #b8ccea;
+    background: #FBEC9A;
     font-weight: 700;
     border: none
 }
@@ -160,16 +160,16 @@ header .intro-text .skills {
 }
 
 .navbar-custom .navbar-nav li a:hover {
-    color: #739dcd;
+    color: #F6C0A3;
     outline: 0
 }
 
 .navbar-custom .navbar-nav li a:active, .navbar-custom .navbar-nav li a:focus {
-    color: #e9dddd
+    color: #F6C0A3
 }
 
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
-    color: #739dcd;
+    color: #F6C0A3;
     background: transparent;
 }
 
@@ -220,7 +220,7 @@ section h2 {
 }
 
 section.success {
-    background: #739dcd;
+    background: #F6C0A3;
     color: #e9dddd
 }
 

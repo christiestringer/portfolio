@@ -93,60 +93,11 @@ hr.star-primary:after {
 }
 
 .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-nav li a{
-    color: #DF8985
-}
-
-header{
-    color: #DF8C89;
-}
-
-.img-centered {
-    margin: 0 auto
-}
-
-header {
-    text-align: center;
-    background: #F6C0A3
-}
-
-header .container {
-    padding-top: 100px;
-    padding-bottom: 50px
-}
-
-header img {
-    display: block;
-    margin: 0 auto 20px
-}
-
-header .intro-text .name {
-    display: block;
-    font-weight: 700;
-    font-size: 2em
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300
-}
-
-@media (min-width: 768px) {
-    header .container {
-        padding-top: 200px;
-        padding-bottom: 100px
-    }
-
-    header .intro-text .name {
-        font-size: 4.75em
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em
-    }
+    color: #333333
 }
 
 .navbar-custom {
-    background: #FBEC9A;
+    background: #fff;
     font-weight: 700;
     border: none
 }
@@ -160,7 +111,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom .navbar-nav li a:hover {
-    color: #F6C0A3;
+    color: #fd6b54;
     outline: 0
 }
 
@@ -207,6 +158,57 @@ header .intro-text .skills {
 
     .navbar-custom.affix .navbar-brand {
         font-size: 1.5em
+    }
+}
+
+header{
+    color: #333333;
+    text-align: center;
+    background: #dcf3ed;
+}
+
+header .name{
+    color: #fd6b54;
+}
+
+.img-centered {
+    margin: 0 auto
+}
+
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px
+}
+
+header .intro-text .name {
+    display: block;
+    font-weight: 700;
+    font-size: 2em
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300
+}
+
+@media (min-width: 768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em
     }
 }
 

@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Bitter', "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: Regular;
-    color: #FBEC9A;
+    color: #000;
 }
 h1{
     font-size: 50px;
@@ -34,10 +34,6 @@ h1{
 
 h2{
     font-size: 37px;
-}
-
-#previous-work h2{
-    color: #FFDCDC;
 }
 
 h3{
@@ -49,7 +45,7 @@ h4{
 }
 
 
-hr.star-light, hr.star-primary {
+hr.star-light, hr.star-primary, hr.star-header {
     padding: 0;
     border: none;
     border-top: solid 5px;
@@ -58,7 +54,7 @@ hr.star-light, hr.star-primary {
     margin: 25px auto 30px
 }
 
-hr.star-light:after, hr.star-primary:after {
+hr.star-light:after, hr.star-primary:after, hr.star-header:after {
     content: "\f005";
     font-family: FontAwesome;
     display: inline-block;
@@ -67,37 +63,46 @@ hr.star-light:after, hr.star-primary:after {
     font-size: 2em;
     padding: 0 .25em
 }
+hr.star-header {
+    border-color: #fff;
+}
 
-.navbar-custom, header .intro-text .name {
-    font-family: "Bitter", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase
+hr.star-header:after {
+    background-color: #008F95;
+    color: #fff;
 }
 
 hr.star-light {
-    border-color: #FBEC9A;
+    border-color: #fff;
 }
 
 hr.star-light:after {
-    background-color: #F6C0A3;
-    color: #FBEC9A;
+    background-color: #EB6E80;
+    color: #fff;
 }
 
-
 hr.star-primary {
-    border-color: #DF8C89
+    border-color: #000;
 }
 
 hr.star-primary:after {
-    background-color: #fff;
-    color: #DF8C89
+    background-color: #FB991A;
+    color: #000;
+}
+
+
+.navbar-custom, header .intro-text .name {
+    font-family: "Bitter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #E24E42;
 }
 
 .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-nav li a{
-    color: #333333
+    color: #fff
 }
 
 .navbar-custom {
-    background: #fff;
+    background: #008F95;
     font-weight: 700;
     border: none
 }
@@ -111,28 +116,28 @@ hr.star-primary:after {
 }
 
 .navbar-custom .navbar-nav li a:hover {
-    color: #fd6b54;
+    color: #EB6E80;
     outline: 0
 }
 
 .navbar-custom .navbar-nav li a:active, .navbar-custom .navbar-nav li a:focus {
-    color: #F6C0A3
+    color: #EB6E80;
 }
 
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
-    color: #F6C0A3;
+    color: #EB6E80;
     background: transparent;
 }
 
 .navbar-custom .navbar-toggle {
-    color: #e9dddd;
+    color: #EB6E80;
     text-transform: uppercase;
     font-size: 10px;
     border-color: #e9dddd
 }
 
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
-    background-color: #739dcd;
+    background-color: #EB6E80;
     color: #e9dddd;
     border-color: #739dcd
 }
@@ -162,13 +167,9 @@ hr.star-primary:after {
 }
 
 header{
-    color: #333333;
+    color: #fff;
     text-align: center;
-    background: #dcf3ed;
-}
-
-header .name{
-    color: #fd6b54;
+    background: #008F95;
 }
 
 .img-centered {
@@ -177,8 +178,14 @@ header .name{
 
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px
+     width: 100%;
+    padding: 100px 0 50px 0;
+}
+
+header .container .row{
+    width: 100%;
+    background-opacity: 0.5;
+    margin: 0;
 }
 
 header img {
@@ -212,8 +219,15 @@ header .intro-text .skills {
     }
 }
 
+#partition{
+    width:80%;
+    margin: 0 auto;
+}
+
 section {
-    padding: 100px 0
+    padding: 100px 0;
+    background: #FB991A;
+    margin: 2%; 0;
 }
 
 section h2 {
@@ -222,8 +236,12 @@ section h2 {
 }
 
 section.success {
-    background: #F6C0A3;
-    color: #e9dddd
+    background: #EB6E80;
+    color: #fff;
+}
+
+section.succcess{
+    color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -457,7 +475,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #b8ccea
+    background-color: #EB6E80;
 }
 
 footer .footer-col {
@@ -466,7 +484,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140
+    background-color: #EB6E80;
 }
 
 .btn-outline {

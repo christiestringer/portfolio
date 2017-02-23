@@ -73,7 +73,6 @@ hr.star:after {
     color: #4cb5f5;
 }
 
-
 hr.star-light {
     border-color: #b7b8b6;
 }
@@ -100,7 +99,6 @@ hr.star-tertiary:after{
     background-color: #b3c100;
     color: #34675c;
 }
-
 
 .navbar-custom, header .intro-text .name {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -257,7 +255,7 @@ section {
 }
 
 section.first{
-    /*background-color: #34675c;*/
+    text-align: justify;
 }
 
 section.second {
@@ -280,23 +278,30 @@ section.third{
 }
 
 #personal-projects .container{
-    width: 90%;
+    /*width: 85%;*/
     margin: 0 auto;
 }
 
 #personal-projects .row{
-    width: 80%;
+    /*width: 95%;*/
     margin: 0 auto;
 }
 
 #personal-projects .personal-projects-item{
     right: 0;
-    width: 30%;
+    /*width: 300px;*/
+    height: 300px;
     z-index: 1;
     display: inline-block;
-    margin: 1%;
     text-align: center;
+    /*border-radius: 50%;*/
     background-color: #fff;
+    padding: 2%;
+    float: left;
+}
+
+#personal-projects .personal-projects-border{
+    border-right: 2px solid #333333;
 }
 
 #personal-projects .personal-projects-item a{
@@ -305,6 +310,16 @@ section.third{
 
 #personal-projects .personal-projects-item .personal-projects-link img{
     width: 50%;
+}
+
+#personal-projects .personal-projects-item .personal-projects-link .personal-projects-info{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#personal-projects .personal-projects-item .personal-projects-link .personal-projects-info p{
+    text-align: justify;
+    color: #333333;
 }
 
 #portfolio .portfolio-item {
@@ -387,10 +402,7 @@ section.third{
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-image img {
-    width: 50px;
-    height: 50px;
     vertical-align: middle;
-    margin: 35% auto;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-info {
@@ -402,16 +414,16 @@ section.third{
     color: #3d3d3d;
 }
 
-#portfolio .portfolio-border-bottom:before {
-    content: "";
-    position: absolute;
-    left: 5%;
-    bottom: 0;
-    height: 1px;
-    width: 90%; /* or 100px */
-    border-bottom: 2px solid #3d3d3d;
-    margin: auto;
-}
+/*#portfolio .portfolio-border-bottom:before {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*left: 5%;*/
+    /*bottom: 0;*/
+    /*height: 1px;*/
+    /*width: 90%; !* or 100px *!*/
+    /*border-bottom: 2px solid #3d3d3d;*/
+    /*margin: auto;*/
+/*}*/
 
 #portfolio .portfolio-border-right:after {
     content: "";
